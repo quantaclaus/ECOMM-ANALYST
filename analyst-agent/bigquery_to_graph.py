@@ -29,7 +29,7 @@ def build_graph_with_bigframes(logger):
     """
     logger.info("Connecting to BigQuery using bigframes...")
     try:
-        bf.options.bigquery.project = 'flawless-empire-476014-j0' 
+        bf.options.bigquery.project = '' 
         bf.options.bigquery.location = 'US'
         
         sql = """
