@@ -1,0 +1,226 @@
+table_catalog,table_schema,table_name,column_name,ordinal_position,is_nullable,data_type,is_generated,generation_expression,is_stored,is_hidden,is_updatable,is_system_defined,is_partitioning_column,clustering_ordinal_position,collation_name,column_default,rounding_mode,data_policies,policy_tags,is_identity,identity_generation,identity_start,identity_increment,identity_maximum,identity_minimum,identity_cycle
+bigquery-public-data,thelook_ecommerce,users,id,1,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,first_name,2,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,last_name,3,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,email,4,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,age,5,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,gender,6,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,state,7,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,street_address,8,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,postal_code,9,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,city,10,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,country,11,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,latitude,12,YES,FLOAT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,longitude,13,YES,FLOAT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,traffic_source,14,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,created_at,15,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,users,user_geom,16,YES,GEOGRAPHY,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,id,1,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,order_id,2,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,user_id,3,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,product_id,4,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,inventory_item_id,5,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,status,6,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,created_at,7,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,shipped_at,8,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,delivered_at,9,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,returned_at,10,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,order_items,sale_price,11,YES,FLOAT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,distribution_centers,id,1,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,distribution_centers,name,2,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,distribution_centers,latitude,3,YES,FLOAT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,distribution_centers,longitude,4,YES,FLOAT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,distribution_centers,distribution_center_geom,5,YES,GEOGRAPHY,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,id,1,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,product_id,2,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,created_at,3,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,sold_at,4,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,cost,5,YES,FLOAT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,product_category,6,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,product_name,7,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,product_brand,8,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,product_retail_price,9,YES,FLOAT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,product_department,10,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,product_sku,11,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,inventory_items,product_distribution_center_id,12,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,products,id,1,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,products,cost,2,YES,FLOAT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,products,category,3,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,products,name,4,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,products,brand,5,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,products,retail_price,6,YES,FLOAT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,products,department,7,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,products,sku,8,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,products,distribution_center_id,9,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,orders,order_id,1,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,orders,user_id,2,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,orders,status,3,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,orders,gender,4,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,orders,created_at,5,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,orders,returned_at,6,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,orders,shipped_at,7,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,orders,delivered_at,8,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,orders,num_of_item,9,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,id,1,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,user_id,2,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,sequence_number,3,YES,INT64,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,session_id,4,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,created_at,5,YES,TIMESTAMP,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,ip_address,6,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,city,7,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,state,8,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,postal_code,9,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,browser,10,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,traffic_source,11,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,uri,12,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
+bigquery-public-data,thelook_ecommerce,events,event_type,13,YES,STRING,NEVER,,,NO,,NO,NO,,NULL,NULL,,"{
+  ""data_policies"": []
+}",[],NO,,,,,,
