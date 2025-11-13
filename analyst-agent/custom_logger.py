@@ -26,12 +26,10 @@ class LoganLogger:
         
         os.makedirs(self.myloggerpath, exist_ok=True)
 
-        # --- THIS IS THE FIX ---
-        # 1. We use the simpler 'FileHandler' instead of 'RotatingFileHandler'
-        # 2. We set mode='w' (write) to delete the old log on startup.
+
         self.loghandler = \
             logging.FileHandler(self.mylogfile, mode='w')
-        # --- END FIX ---
+        
             
         self.loghandler.setFormatter(logging.Formatter(self.mylogformat))
 
