@@ -20,7 +20,7 @@ LOG_DIR = os.path.join(PROJECT_ROOT, 'logs')
 # --- END NEW PATH HEADER ---
 
 # --- Config ---
-SCHEMA_FILE_PATH = os.path.join(DATA_DIR, 'bquxjob_7414dc02_19a5d4a2dad.csv')
+SCHEMA_FILE_PATH = os.path.join(DATA_DIR, 'ecomm-schema.csv')
 QDRANT_PATH = os.path.join(DATA_DIR, 'qdrant_db') 
 YOUR_PROJECT_ID = ''
 # --- End Config ---
